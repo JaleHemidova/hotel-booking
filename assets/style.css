@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish&family=Nunito:wght@100;200;300;400;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish";
+    background-color: #F5FAFE;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg {
+    background-color: #FFF;
+}
+
+.plan {
+    padding: 40px 0;
+}
+
+.ellipse {
+    width: 46px;
+    height: 46px;
+}
+
+.basket {
+    margin: 5px 50px 0 0;
+}
+
+select {
+    border: none;
+}
+
+h3 {
+    font-family: "Luckiest Guy";
+    margin-right: 120px;
+}
+
+h3 span {
+    color: #EC1F46;
+}
+
+.plan input {
+    background-color: #F5FAFE;
+}
+
+.input {
+    width: 350px;
+    height: 45px;
+    /* margin-right: 180px; */
+}
+
+.newsletter input,
+.plan input {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.newsletter button,
+.plan button {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.name {
+    margin-top: 14px;
+}
+
+.questions p {
+    font-size: 14px;
+}
+
+nav {
+    background-color: #0A223D;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.links a {
+    font-size: 14px;
+    color: black;
+}
+
+.flash {
+    font-size: 12px;
+    width: 100px !important;
+    height: 32px !important;
+}
+
+.rating {
+    color: white;
+    width: 100px;
+    height: 65px;
+    padding: 10px 10px 5px 10px;
+}
+
+.rating p,
+.down {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.rating .up {
+    font-size: 20px;
+}
+
+.rating span {
+    text-align: center !important;
+}
+
+.hotel-img {
+    background-image:
+        linear-gradient(rgba(0, 122, 223, 0.48), rgba(255, 255, 255, 0.12)), url('./imgs/Rectangle\ 5.png');
+    width: 750px;
+    height: 470px;
+    background-size: cover;
+}
+
+.hotel-img,
+.card,
+.map {
+    border-radius: 9px;
+}
+
+.card {
+    background-color: #0A223D;
+    color: #FFF;
+    font-family: "Nunito";
+    padding: 25px 30px;
+    margin-bottom: 33px;
+}
+
+.card .price {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: -5px;
+}
+
+.card img {
+    width: 15px;
+    height: 15px;
+    margin: 4px 10px 0 0;
+}
+
+.card span {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.card-bottom {
+    font-size: 20px;
+}
+
+.card-bottom img {
+    margin: 6px 8px 0 0;
+}
+
+.card button {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+article a {
+    color: black;
+    position: relative;
+}
+
+article .active {
+    color: #EC1F46;
+}
+
+/* active link */
+article .active:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -15px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    background: #EC1F46;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 100%;
+}
+
+article a:active {
+    color: #EC1F46;
+}
+
+article a:hover {
+    color: #EC1F46;
+}
+
+article a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -15px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: #EC1F46;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+article a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+aside h2 {
+    margin-bottom: 30px;
+}
+
+aside h6 {
+    margin-bottom: 0;
+}
+
+aside .package-card {
+    background-color: #fff;
+}
+
+aside .package-card-title {
+    background-color: #0A223D;
+    color: #FFF;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+aside .package-card-body {
+    background-color: #FFF;
+    padding: 30px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+aside .package-card-body .left {
+    margin-left: 38px;
+}
+
+aside .package-card img {
+    width: 18px;
+    height: 18px;
+}
+
+aside p {
+    position: relative;
+    font-size: 13px;
+    margin: 5px 40px 22.5px 5px;
+}
+
+aside p::before {
+    content: url(./imgs/circle\ check\ full.png);
+    position: absolute;
+    left: -16%;
+    top: 6%;
+}
+
+aside pre {
+    font-size: 13px;
+    margin-top: -2px;
+    font-family: "Mulish";
+}
+
+aside .date {
+    font-size: 13px;
+}
+
+aside .title {
+    color: #EC1F46;
+    display: inline-block;
+    margin: 0 0 15px -40px;
+    font-weight: bold;
+}
+
+hr {
+    border-top: 1px dashed gray;
+    margin: 0 35px;
+}
+
+.cards .card {
+    padding: 40px 20px 27px 40px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 250px;
+}
+
+.cards .first-card {
+    padding: 40px 20px 27px 40px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+    height: 500px;
+    width: 366px;
+}
+
+.cards .img {
+    background-image: url("./imgs/Stars.png");
+    width: 48px;
+    height: 8px;
+}
+
+.cards .card span {
+    font-size: 14px;
+}
+
+.cards .book {
+    position: relative;
+}
+
+.cards .flash {
+    position: absolute;
+    top: 5%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.cards .flash-big {
+    width: 140px !important;
+    height: 40px !important;
+    font-size: 16px;
+}
+
+.thoughts .carousel-item img:first-child {
+    width: 80px !important;
+    height: 80px;
+}
+
+.thoughts .carousel-item {
+    text-align: center;
+}
+
+/* .thoughts .vector{
+    text-align: left;
+} */
+.thoughts .carousel-item .text-danger+p {
+    font-size: 14px;
+}
+
+.thoughts .carousel-item .thought {
+    margin: 0 200px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.thoughts .carousel-control-prev-icon {
+    color: black !important;
+}
+
+.thoughts .title {
+    margin: 100px 0 80px 0;
+}
+
+.thoughts .carousel-inner {
+    background-color: #fff;
+}
+
+.thoughts button {
+    background-color: #F5FAFE;
+}
+
+.newsletter {
+    margin-bottom: 80px;
+}
+
+.newsletter-img {
+    background-image:
+        linear-gradient(rgba(10, 34, 61, 0.9), rgba(255, 255, 255, 0.1)), url('./imgs/Rectangle\ 25.png');
+    height: 250px;
+    background-size: cover;
+}
+
+.newsletter .text {
+    color: white;
+    font-size: 20px;
+}
+
+.newsletter .text p:last-child {
+    font-size: 26px;
+}
+
+.newsletter-img .subs {
+    padding-top: 80px;
+    margin-left: 200px;
+}
+
+.newsletter .input {
+    height: 60px;
+}
+
+.other {
+    margin-bottom: 80px;
+}
+
+.other h2 {
+    margin-bottom: 80px;
+}
+
+.other .other-cards div {
+    width: 255px;
+    height: 255px;
+    padding: 130px 20px 30px 30px;
+}
+
+.other .bg-1 {
+    background-image: url(./imgs/Bg\ \(4\).png);
+}
+
+.other .bg-2 {
+    background-image: url(./imgs/Bg\ \(1\).png);
+}
+
+.other .bg-3 {
+    background-image: url(./imgs/Bg\ \(2\).png);
+}
+
+.other .bg-4 {
+    background-image: url(./imgs/Bg\ \(3\).png);
+}
+
+.other p {
+    color: white;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #0A223D;
+    color: white;
+    padding: 110px 130px 50px 100px;
+    font-weight: 100 !important;
+}
+
+footer h3 {
+    font-size: 60px;
+    width: 220px;
+    margin: 0;
+}
+
+footer p {
+    font-weight: 900;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 12px;
+}
+footer .bottom{
+    margin-bottom: 160px;
+}
+footer .bottom img {
+    width: 16px;
+    height: 16px;
+    margin-right: 15px;
+}
+
+footer .bottom span {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+footer .bottom .tel-sp {
+    margin-left: 35px;
+}
+
+footer .bottom input {
+    width: 260px;
+    height: 45px;
+}
+footer textarea {
+    width: 547px !important;
+}
+footer button{
+    padding: 15px 80px !important;
+}
+footer .third pre{
+    display: inline-block;
+    font-family: "Mulish";
+    font-size: 12px;
+    margin: 0 300px 0 400px;
+}
+footer .third img{
+    width: 140px;
+    height: 20px;
+}
+footer .third span{
+    font-size: 12px;
+}
+footer .empty{
+    width: 170px;
+}
